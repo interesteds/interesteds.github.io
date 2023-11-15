@@ -1,0 +1,102 @@
+body { background-image:url("code/fon.png");
+    background-size: cover;
+    }
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2em;
+    }
+li a {
+  padding-right: 2em;
+  font-size: 2em;
+}
+footer {
+    height: 300px;
+}
+div {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-size: 2em;
+}
+.box {
+     display: flex; 
+    
+}
+.box img {
+    margin: 10px;
+    margin-top: 85px;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover > ul {
+    display:inherit;
+    top: 30px;
+    background-image:url("code/fon.png");
+}
+nav ul ul li {
+    /* min-width:170px; */
+    display:list-item;
+
+}
+nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+    left: 0;
+    }
+
+naqv ul li a {
+    padding: 0;
+}
+nav ul li {
+    display:inline-block;
+    }
+.plakat {
+    display:flex;
+    justify-content:center;
+}
+.plakat img {
+    max-height: 500px;
+    padding-right: 50px;
+}
+.black {
+ display: flex;
+ vertical-align: middle;
+ background-color: #000000;
+ height: 500px;
+ margin-right: 50px;
+}
+.opisan {
+    display: flex;
+}
+.opisan div{
+    padding-left: 2em;
+    margin-top: 0em;
+}
+a:visited {
+  color: rgb(0, 80, 252);   
+}
+ul li ul {
+    margin-top: 0.5em;
+}
+.opisan div ul {
+    padding-left: 0;
+    font-size: 2em;
+}
+.opisan div .box2 {
+   
+    padding-left: 0;
+    font-size: 1em;
+
+}
+.p {
+    text-align: center;
+}
+div ul li {
+    padding-bottom: 20px;
+}
