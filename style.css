@@ -1,4 +1,4 @@
-body { background-image:url("code/fon.png");
+body { background-image:url("./robototexneka/fon.png");
     background-size: cover;
     }
     p {
@@ -35,7 +35,7 @@ nav ul ul {
 nav ul li:hover > ul {
     display:inherit;
     top: 30px;
-    background-image:url("code/fon.png");
+    background-image:url("./robototexneka/fon.png");
 }
 nav ul ul li {
     /* min-width:170px; */
